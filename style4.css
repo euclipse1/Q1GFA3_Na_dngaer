@@ -54,7 +54,7 @@
   }
 
 .body{
-    width: 100vw;
+    width: 80vw;
     height: 80vh;
     text-align: center;
 }
@@ -106,12 +106,12 @@
 }
 
 .profile{
-    margin-left: -.3vw;
+    margin-left: 7vw;
     position: absolute;
     justify-content: center;
     align-items: center;
     margin-top: -55vh;
-    width: 100vw;
+    width: 90vw;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 300px) );
     column-gap: 11vw;
@@ -127,20 +127,20 @@
 }
 
 #pfp2{
-    margin-left: .9vw;
+    margin-left: -.5vw;
 }
 
 #pfp3{
-    margin-left: 1.5vw;
+    margin-left:-1vw;
 }
 
 .mem-info{
-    margin-left: -.8vw;
+    margin-left: 6.2vw;
     position: absolute;
     justify-content: center;
     align-items: center;
     margin-top: -22vh;
-    width: 100vw;
+    width: 90vw;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 300px) );
     column-gap: 11vw;
@@ -158,15 +158,13 @@
     width: 20vw;
     background: white;
     padding-left: 2vh;
-    padding-right: 2vh;
-    padding-top: .5vh;
-    padding-bottom: 2vh;
-    margin-left: -2vw;
+    padding-bottom: 1vh;
+    margin-left: -3vh;
     text-align: center;
 }
 
 #drea h2{
-    margin-top: 2vh;
+    margin-top: vh;
 }
 
 #kash{
@@ -176,12 +174,8 @@
     padding-right: 2vh;
     padding-top: .5vh;
     padding-bottom: .5vh;
-    margin-left: -1.2vw;
+    margin-left: -2.5vw;
     text-align: center;
-}
-
-#kash h2{
-    margin-top: h;
 }
 
 #yanna{
@@ -191,7 +185,7 @@
     padding-right: 2vh;
     padding-top: .5vh;
     padding-bottom: 2vh;
-    margin-left: -.3vw;
+    margin-left: -2.9vw;
     text-align: center;
 }
 
@@ -213,6 +207,7 @@
     width: 99.7vw;
     border: 2px white solid;
     position: fixed;
+    
 }
 
 .footer a{
